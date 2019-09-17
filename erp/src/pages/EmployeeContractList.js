@@ -83,16 +83,16 @@ const tableColumn = [
         title: 'Hành động',
         render: () => (
             <span style={{}}>
-                <Icon type="edit" />
+                <Icon style={{ cursor: 'pointer' }} type="edit" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 {/* <Divider type="vertical" /> */}
-                <Icon type="delete" />
+                <Icon style={{ cursor: 'pointer' }} type="delete" />
             </span>
         ),
     },
 ]
 
-const BranchList = () => (
+const EmployeeContractList = () => (
     <LayoutMain>
         <Title level={2} style={{ marginBottom: '2rem' }}>
             Quản lý hợp đồng
@@ -134,4 +134,4 @@ const BranchList = () => (
     </LayoutMain>
 )
 
-export default BranchList
+export default EmployeeContractList
