@@ -99,6 +99,10 @@ const tableColumn = [
         sorter: true,
     },
     {
+        title: 'Địa chỉ',
+        dataIndex: 'address',
+    },
+    {
         title: 'Hành động',
         render: () => (
             <span>
