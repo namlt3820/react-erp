@@ -21,17 +21,18 @@ class Sidebar extends Component {
         const { pathname } = location
         sidebarData.map(item => {
             if (item.children && item.children.length > 0) {
-                item.children.map(childitem => {
+                return item.children.map(childitem => {
                     if (pathname.match(childitem.path)) {
                         this.setState({
                             openKeys: [item.key],
                             selectedKeys: [childitem.key],
                         })
-
                         document.title = childitem.text
                     }
+                    return null
                 })
             }
+            return null
         })
     }
 
