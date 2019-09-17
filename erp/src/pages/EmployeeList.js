@@ -167,16 +167,16 @@ const tableColumn = [
         title: 'Hành động',
         render: () => (
             <span style={{}}>
-                <Icon type="edit" />
+                <Icon style={{ cursor: 'pointer' }} type="edit" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 {/* <Divider type="vertical" /> */}
-                <Icon type="delete" />
+                <Icon style={{ cursor: 'pointer' }} type="delete" />
             </span>
         ),
     },
 ]
 
-const BranchList = () => (
+const EmployeeList = () => (
     <LayoutMain>
         <Title level={2} style={{ marginBottom: '2rem' }}>
             Quản lý nhân viên
@@ -214,8 +214,11 @@ const BranchList = () => (
             columns={tableColumn}
             dataSource={tableData}
             pagination={{ total: 200, current: 10 }}
+            // rowSelection={
+            // onChange: () => {console.log('1111111') }
+            // }
         />
     </LayoutMain>
 )
 
-export default BranchList
+export default EmployeeList

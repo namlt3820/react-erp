@@ -9,6 +9,7 @@ import ServiceAdd from '../pages/ServiceAdd'
 import ServiceList from '../pages/ServiceList'
 import SalaryHistory from '../pages/SalaryHistory'
 import SalaryResult from '../pages/SalaryResult'
+import EmployeeInfo from '../pages/EmployeeInfo'
 
 export default [
     {
@@ -26,6 +27,10 @@ export default [
     {
         path: '/danh-sach-nhan-vien',
         component: EmployeeList,
+    },
+    {
+        path: '/danh-sach-nhan-vien/thong-tin-nhan-vien',
+        component: EmployeeInfo,
     },
     {
         path: '/danh-sach-hop-dong',
