@@ -50,6 +50,11 @@ export const sidebarData = [
                 text: 'Danh sách hợp đồng',
                 path: '/danh-sach-hop-dong',
             },
+            {
+                key: '/danh-sach-nhan-vien/thong-tin-nhan-vien',
+                text: 'Thông tin nhân viên',
+                path: '/danh-sach-nhan-vien/thong-tin-nhan-vien',
+            },
         ],
     },
     {
