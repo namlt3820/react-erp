@@ -4,6 +4,7 @@ import BranchDetail from '../pages/BranchDetail'
 import EmployeeList from '../pages/EmployeeList'
 import EmployeeContractList from '../pages/EmployeeContractList'
 import CustomerDetail from '../pages/CustomerDetail'
+import CustomerAdd from '../pages/CustomerAdd'
 import ServiceAdd from '../pages/ServiceAdd'
 import ServiceList from '../pages/ServiceList'
 import SalaryHistory from '../pages/SalaryHistory'
@@ -33,6 +34,10 @@ export default [
     {
         path: '/thong-tin-khach-hang',
         component: CustomerDetail,
+    },
+    {
+        path: '/them-khach-hang',
+        component: CustomerAdd,
     },
     {
         path: '/danh-sach-dich-vu',

@@ -81,11 +81,10 @@ const CustomerList = () => (
                         icon="edit"
                         style={{ marginRight: '5rem' }}
                         type="primary"
-                        size="large"
                     >
                         Sửa
                     </Button>
-                    <Button icon="delete" type="danger" size="large">
+                    <Button icon="delete" type="danger">
                         Xoá
                     </Button>
                 </Row>

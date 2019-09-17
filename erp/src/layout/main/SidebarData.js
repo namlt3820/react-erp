@@ -31,6 +31,11 @@ export const sidebarData = [
                 text: 'Thông tin khách hàng',
                 path: '/thong-tin-khach-hang',
             },
+            {
+                key: 'Thêm khách hàng',
+                text: 'Thêm khách hàng',
+                path: '/them-khach-hang',
+            },
         ],
     },
     {
