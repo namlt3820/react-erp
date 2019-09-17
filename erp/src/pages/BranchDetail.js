@@ -89,18 +89,20 @@ const BranchDetail = () => (
                     <Option value="hp">Hải Phòng</Option>
                 </Select>
             </Col>
-            <Col span={4}>
-                <Button
-                    icon="edit"
-                    style={{ marginRight: '1rem' }}
-                    type="primary"
-                    size="large"
-                >
-                    Sửa
-                </Button>
-                <Button icon="delete" type="danger" size="large">
-                    Xoá
-                </Button>
+            <Col span={18}>
+                <Row type="flex" justify="end">
+                    <Button
+                        icon="edit"
+                        style={{ marginRight: '1rem' }}
+                        type="primary"
+                        size="large"
+                    >
+                        Sửa
+                    </Button>
+                    <Button icon="delete" type="danger" size="large">
+                        Xoá
+                    </Button>
+                </Row>
             </Col>
         </Row>
         <Row style={{ marginLeft: '-2rem' }}>

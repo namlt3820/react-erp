@@ -27,9 +27,9 @@ export const sidebarData = [
         },
         children: [
             {
-                key: 'Danh sách khách hàng',
-                text: 'Danh sách khách hàng',
-                path: '/danh-sach-khach-hang',
+                key: 'Thông tin khách hàng',
+                text: 'Thông tin khách hàng',
+                path: '/thong-tin-khach-hang',
             },
         ],
     },
